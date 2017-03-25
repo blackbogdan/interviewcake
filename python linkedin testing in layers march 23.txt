@@ -1,0 +1,29 @@
+slides
+#http://www.aleax.it/pyconit17_en.pdf
+from unittest import mock
+1) Write Unit tests before writing the code
+
+2) If bug found, first write unit test to catch it;
+
+3) How to test DB (third level): Emulate DB, DB doesn't have to be very big.
+http://martinflower.com/arcticles/mocksArentStubs.html.
+
+4) How to test middle level:
+unit test (should be verify fast)
+
+5) performance:
+if your "moderate" code depends on other "Heavy" code,
+improvement of your code could not result of huge performance improvement
+
+
+6) Tests and logging:
+ again, run fast unittest
+    6.1)in case your test is taking too long:
+    log/snapshot details
+    run backgroud  jobs to verify that snapshots
+
+
+
+
+
+chekcing graph that has certain properties is not as costly as manipulating properties.

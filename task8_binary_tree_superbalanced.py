@@ -1,10 +1,20 @@
 __author__ = 'bkapusta'
+import random
 # Binary tree explained:
 # https://www.youtube.com/watch?v=YlgPi75hIBc&index=7&list=PLj8W7XIvO93qsmdxbaDpIvM1KCyNO1K_c
 #
 # traversal explained:
 # http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+#          1
+#         / \
+#        2   3
+#       / \
+#      4   5
 
+# Depth First Traversals:
+#  Preorder (Root, Left, Right) : 1 2 4 5 3
+#  Postorder (Left, Right, Root) : 4 5 2 3 1
+#  Inorder (Left, Root, Right) : 4 2 5 1 3
 class Node:
     def __init__(self, val):
         self.value = val
@@ -58,6 +68,37 @@ class Node:
                 return self.rightChild.find(data)
             else:
                 return False
+    # recursive traversal function on the node class:
+    def preorder(self):
+        if self:
+            # print value of the current node.
+            # TO DO: why should we print as a string???
+            # calling "if" statements instead of "elif" to make this consistent
+            print str(self.value)
+            if self.leftChild:
+                # if there's a left child, it calls the preorder on the left child
+                self.leftChild.preorder()
+            elif self.rightChild:
+                # if there's a left child, it calls the preorder on the right child
+                self.rightChild.preorder()
+
+    def postorder(self):
+        if self:
+            if self.leftChild:
+                self.leftChild.postorder()
+            if self.rightChild:
+                self.rightChild.postorder()
+            print str(self.value)
+
+    def inorder(self):
+        if self:
+            if self.leftChild:
+                self.leftChild.inorder()
+            print str(self.value)
+            if self.rightChild:
+                self.rightChild.inorder()
+
+
 class Tree:
     def __init__(self):
         self.root = None
@@ -79,19 +120,23 @@ class Tree:
         else:
             return False
 
+    def preorder(self):
+        print "PerOrder"
+        self.root.preorder()
 
+    def postorder(self):
+        print "PostOrder"
+        self.root.postorder()
 
+    def inorder(self):
+        print "InOrder"
+        self.root.inorder()
 
-# class BinaryTreeNode:
-#     def __init__(self, value):
-#         self.value = value
-#         self.left = left
-#         self.right = right
-#
-#     def insert_left(self):
-#         self.left = BinaryTreeNode.value
-#         return self.left
-#
-#     def insert_right(self):
-#         self.right = BinaryTreeNode.value
-#         return self.right
+bst = Tree()
+bst.insert(10)
+print "==="*24
+bst.inorder()
+print "==="*24
+bst.postorder()
+print "==="*24
+bst.preorder()
