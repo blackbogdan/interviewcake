@@ -1,6 +1,6 @@
 __author__ = 'bkapusta'
 import random
-# Binary tree explained:
+# Binary tree explained
 # https://www.youtube.com/watch?v=YlgPi75hIBc&index=7&list=PLj8W7XIvO93qsmdxbaDpIvM1KCyNO1K_c
 #
 # traversal explained:
@@ -131,6 +131,19 @@ class Tree:
     def inorder(self):
         print "InOrder"
         self.root.inorder()
+# print [random.randint(1, 20) for i in range(11)]
+
+# [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
+# this will build up a tree
+#                       17
+                    /       \
+                   2         20
+                    \       /
+                     6     18
+                    /  \
+                   4    16
+                        /
+                       11
 
 bst = Tree()
 bst.insert(10)
