@@ -78,7 +78,7 @@ class Node:
             if self.leftChild:
                 # if there's a left child, it calls the preorder on the left child
                 self.leftChild.preorder()
-            elif self.rightChild:
+            if self.rightChild:
                 # if there's a left child, it calls the preorder on the right child
                 self.rightChild.preorder()
 
@@ -136,17 +136,20 @@ class Tree:
 # [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
 # this will build up a tree
 #                       17
-                    /       \
-                   2         20
-                    \       /
-                     6     18
-                    /  \
-                   4    16
-                        /
-                       11
+#                     /       \
+#                    2         20
+#                     \       /
+#                      6     18
+#                     /  \
+#                    4    16
+#                         /
+#                        11
 
+l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
 bst = Tree()
-bst.insert(10)
+for item in l:
+
+    bst.insert(item)
 print "==="*24
 bst.inorder()
 print "==="*24
