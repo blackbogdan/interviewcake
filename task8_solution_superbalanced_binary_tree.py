@@ -17,7 +17,7 @@ def is_superbalanced(tree_root):
         # Pop shall remove last item from the list
         node, depth = nodes.pop()
         # in case we found a leaf (it does not have left and right nodes)
-        if (not node.left) and (not node.right):
+        if (not node.leftChild) and (not node.rightChild):
             # we only care of it's a NEW depth
             if depth not in depths:
                 depths.append(depth)
@@ -29,20 +29,31 @@ def is_superbalanced(tree_root):
                     return False
         # else it is NOT a Leaf - keep getting down!
         else:
-            if node.left:
-                nodes.append((node.left, depth + 1))
-            if node.right:
-                nodes.append((node.right, depth + 1))
+            if node.leftChild:
+                nodes.append((node.leftChild, depth + 1))
+            if node.rightChild:
+                nodes.append((node.rightChild, depth + 1))
     return True
 
 l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
+# this will build up a tree
+#                        17
+#                     /       \
+#                    2         20
+#                     \       /
+#                      6     18
+#                     /  \
+#                    4    16
+#                         /
+#                        11
+l = [17, 2, 6, 16, 6, 20, 4, 16, 16]
 bst = Tree()
 for item in l:
     bst.insert(item)
-print "==="*6
-bst.inorder()
-print "==="*6
-bst.postorder()
-print "==="*6
-bst.preorder()
-# print is_superbalanced(bst)
+# print "==="*6
+# bst.inorder()
+# print "==="*6
+# bst.postorder()
+# print "==="*6
+# bst.preorder()
+print "Is the tree superbalanced: ", is_superbalanced(bst.root)
