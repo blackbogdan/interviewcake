@@ -74,7 +74,7 @@ class Node:
             # print value of the current node.
             # TO DO: why should we print as a string???
             # calling "if" statements instead of "elif" to make this consistent
-            print str(self.value)
+            print self.value
             if self.leftChild:
                 # if there's a left child, it calls the preorder on the left child
                 self.leftChild.preorder()
@@ -88,13 +88,13 @@ class Node:
                 self.leftChild.postorder()
             if self.rightChild:
                 self.rightChild.postorder()
-            print str(self.value)
+            print self.value
 
     def inorder(self):
         if self:
             if self.leftChild:
                 self.leftChild.inorder()
-            print str(self.value)
+            print self.value
             if self.rightChild:
                 self.rightChild.inorder()
 
