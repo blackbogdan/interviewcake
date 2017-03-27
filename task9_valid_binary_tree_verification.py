@@ -29,7 +29,7 @@ def is_binary_search_tree1(tree_root):
     # depth-first traversal:
     while len(node_and_bounds_stack):
         node, lower_bound, upper_bound = node_and_bounds_stack.pop()
-        print node, lower_bound, upper_bound
+        # print node, lower_bound, upper_bound
         if (node.value <= lower_bound) or (node.value >= upper_bound):
             return False
 
@@ -43,7 +43,7 @@ def is_binary_search_tree1(tree_root):
     # if none of the nodes were invalid, return true
     # (at this point we checked all the nodes)
     return True
-
+# SOLUTION 2
 def is_binary_search_tree2(tree_root, lower_bound = -float('inf'), upper_bound = float('inf')):
     if not tree_root:
         return True
