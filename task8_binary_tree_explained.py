@@ -145,15 +145,16 @@ class Tree:
 #                         /
 #                        11
 
-l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
-bst = Tree()
-for item in l:
-    bst.insert(item)
-print "==="*6
-bst.inorder()
-print "==="*6
-bst.postorder()
-print "==="*6
-bst.preorder()
-print bst.find(20)
-print bst.find(99)
+if __name__ == "__main__":
+    l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
+    bst = Tree()
+    for item in l:
+        bst.insert(item)
+    print "===" * 6
+    bst.inorder()
+    print "===" * 6
+    bst.postorder()
+    print "===" * 6
+    bst.preorder()
+    print bst.find(20)
+    print bst.find(99)
