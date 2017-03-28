@@ -15,6 +15,19 @@ import random
 #  Preorder (Root, Left, Right) : 1 2 4 5 3
 #  Postorder (Left, Right, Root) : 4 5 2 3 1
 #  Inorder (Left, Root, Right) : 4 2 5 1 3
+
+#  great binary tree library to draw trees:  https://pypi.python.org/pypi/drawtree
+#    17
+#    / \
+#   /   \
+#  /     \
+# 2      20
+#  \     /
+#   6   18
+#  / \
+# 4  16
+#    /
+#   11
 class Node:
     def __init__(self, val):
         self.value = val
@@ -144,6 +157,7 @@ class Tree:
 #                    4    16
 #                         /
 #                        11
+
 
 if __name__ == "__main__":
     l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
