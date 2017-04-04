@@ -12,12 +12,15 @@ def is_superbalanced(tree_root):
 #     because we're using "depth first search" approach
     nodes = []
     nodes.append((tree_root, 0))
+    i = 1
     while len(nodes):
         # pop a node and it's depth from the top of our stack
         # Pop shall remove last item from the list
         node, depth = nodes.pop()
+        print "Popped node: {}, popped depth: {}. Current iteration: {}".format(node, depth, i)
         # in case we found a leaf (it does not have left and right nodes)
         if (not node.leftChild) and (not node.rightChild):
+            print "we found a leaf!!! {}".format(node.value)
             # we only care of it's a NEW depth
             if depth not in depths:
                 depths.append(depth)
@@ -30,9 +33,12 @@ def is_superbalanced(tree_root):
         # else it is NOT a Leaf - keep getting down!
         else:
             if node.leftChild:
+                print ("not a leaf, appending LEFT child {}. Iteration {}".format(node.value, i))
                 nodes.append((node.leftChild, depth + 1))
             if node.rightChild:
+                print ("not a leaf, appending RIGHT child {}. Iteration {}".format(node.value, i))
                 nodes.append((node.rightChild, depth + 1))
+        i += 1
     return True
 
 l = [17, 2, 6, 16, 6, 20, 4, 16, 18, 16, 11]
