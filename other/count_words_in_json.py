@@ -13,8 +13,9 @@ def count_words_files(file="unsorted.txt"):
             counts[word]=counts.get(word,0)+1
         keys=counts.keys()
         values=counts.values()
+
         print keys[values.index(max(values))], max(values)
-# count_words_files()
+count_words_files()
 
 def count_keys_in_json(json_file="json_example.json"):
     with open(json_file) as handle:

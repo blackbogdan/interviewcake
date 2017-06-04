@@ -1,5 +1,7 @@
 #http://stackoverflow.com/questions/642763/python-intersection-of-two-lists
 # http://www.saltycrane.com/blog/2008/01/how-to-find-intersection-and-union-of/
+
+
 lista = ["a%s" %x for x in range(10)]
 
 listb = ["b%s" %x for x in range(10)]
@@ -15,7 +17,7 @@ print "list a_and_b", a_and_b
 print "a:", a
 print "missing_1_in_a 1 missing element (a1):", missing_1_in_a
 print '---------------------------------------------------------'
-
+sorted(a, reversed)
 # a= set(lista) & set(listc)
 # print a
 #how to find out mathing itmes in list:

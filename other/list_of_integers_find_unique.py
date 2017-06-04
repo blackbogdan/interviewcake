@@ -12,6 +12,9 @@ def count_words(dictionario):
     result = {}
     for element in dictionario:
         result[element]=result.get(element, 0) + 1
-    return result
+    keys = result.keys()
+    values = result.values()
+    z = keys[values.index(min(values))]
+    return z
 
 print count_words(d)
