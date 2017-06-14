@@ -1,6 +1,10 @@
 __author__ = 'bkapusta'
-rlst = range(100000000)
+rlst = range(188)
 # http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBinarySearch.html
+#----------------------------------------------------------------
+# Binary searh while loop
+# ---------------------------------------------------------------
+
 def binary_search(lst, item):
     first = 0
     last = len(lst) - 1
@@ -14,6 +18,11 @@ def binary_search(lst, item):
         else:
             first = mid +1
     return False
+
+
+#----------------------------------------------------------------
+# Binary search recursive
+# ---------------------------------------------------------------
 def binary_recursive(lst, item):
     if len(lst)==0:
         return False
@@ -25,6 +34,3 @@ def binary_recursive(lst, item):
             return binary_recursive(lst[:mid], item)
         else:
             return binary_recursive(lst[mid+1:], item)
-binary_search(rlst, -1)
-binary_recursive(rlst, -1)
-# print rlst.index(14)

@@ -41,16 +41,10 @@ class memo_fib:
         result = fib_recursive(num-1) + fib_recursive(num - 2)
         self.memo[num] = result
         return result
-
-def fib_recursive_power(num):
-    # 2*n -1 = num
-    n = (num +1)/2
-    if n in [0,1]:
-        return num
-    return (2*fib_recursive_power(n-1)+fib_recursive_power(n))*fib_recursive_power(n)
-
+#----------------------------------------------------------------
+# Fibonacci with power
+# ---------------------------------------------------------------
 # with the matrix multiplication:
-
     # https://stackoverflow.com/questions/28548457/nth-fibonacci-number-for-n-as-big-as-1019
 fib_matrix=[[1, 1],
             [1, 0]]
@@ -96,8 +90,17 @@ def matrix_pow(M, power, mod):
                 result = matrix_mul(result, matrix, mod)
 
     return result
-
-
+# print matrix_pow(fib_matrix, 6, 1000000007)[0][1]
+# output:
+# 0b110
+# [False, True, True]
+# 3
+# [None, None, None]
+# [[[1, 1], [1, 0]], [[2, 1], [1, 1]], [[5, 3], [3, 2]]]
+# ===>Matrix [[1, 1], [1, 0]]. Power: False
+# ===>Matrix [[2, 1], [1, 1]]. Power: True
+# ===>Matrix [[5, 3], [3, 2]]. Power: True
+# 8
 
 # end of with matrix multiplication
 
@@ -109,5 +112,5 @@ if __name__=="__main__":
     # fib_class.fib_recursive_memo(numba)
     # fib_recursive()
     # print fib_recursive_power(numba)
-    print matrix_pow(fib_matrix, 89, 1000000007)[0][1]
+    print matrix_pow(fib_matrix, 6, 1000000007)[0][1]
     # print matrix_pow(fib_matrix, 10**2, 2)

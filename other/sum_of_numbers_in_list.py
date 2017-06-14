@@ -43,16 +43,6 @@ def sum_1(sum, lst):
             print "changes smallest to: ", smallest
     return False
 
-cProfile.run('''def sum_2(num, lst):
-    diff = set()
-
-    for item in lst:
-        if item in diff:
-            return [item, num-item], diff
-        diff.add(num-item)
-    return False
-print sum_2(8, lst)''')
-
 def sum_2(num, lst):
     diff = set()
 
@@ -63,3 +53,19 @@ def sum_2(num, lst):
     return False
 print sum_2(8, lst)
 
+
+def sum_that_returns_nubmers(num, lst):
+    # assuming the list is not sorted
+    if len(lst)<2:
+        return False
+    diff = set()
+    for item in lst:
+        if type(item) not in [int, float]:
+            continue
+        if item in diff:
+            return [item, num - item]
+        diff.add(num - item)
+    return False
+
+lst = [1, "a", 2, -5,3]
+print sum_that_returns_nubmers(-2, lst)
