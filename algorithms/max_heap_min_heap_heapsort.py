@@ -117,7 +117,80 @@ class other_max_heap_sort:
             self.swap(i, 0)
             self.heapify(i, 0)
         return self.lst
-sqc = [2, 7, 1, -2, 56, 5, 3]
-h = other_max_heap_sort(sqc)
-print h.heap_sort()
-print sqc, "YO mmama"
+
+
+class MinHeap:
+    def __init__(self, input_data=[]):
+        # occupying index 0
+        self.heap = [0]
+        for i in input_data:
+            self.heap.append(i)
+            self.__floatUP(len(self.heap) -1 )
+
+
+    def __floatUP(self, index):
+        # parent index p_i
+        p_i = index//2
+        if index <= 1:
+            return
+        elif self.heap[index] < self.heap[p_i]:
+            self.__swap(index, p_i)
+            self.__floatUP(p_i)
+
+    def __swap(self, i, j):
+        self.heap[i], self.heap[j] = self.heap[j], self.heap[i]
+
+    def pop(self):
+        if len(self.heap) > 2:
+            # we swap value from the top to the latest one
+            self.__swap(1, len(self.heap) - 1)
+            # pop the value from the list
+            min = self.heap.pop()
+            self.__bubbleDOWN(1)
+        elif len(self.heap) == 2:
+            min = self.heap.pop()
+        else:
+            # no value in the heap
+            min = False
+        return min
+
+    def __bubbleDOWN(self, index):
+        l_child = 2*index
+        r_child = 2*index + 1
+        smallest_index = index
+        # if we're having the left child "len(self.heap) > l_child". If this statement is False,
+        # then we're overshooting the current heap and hence, we don't need to do anything
+        if len(self.heap) > l_child and self.heap[smallest_index] > self.heap[l_child]:
+            # in case item at smallest_index (which is current "index") we reassign the smallest index
+            # to left child index
+            smallest_index = l_child
+
+        if len(self.heap) > r_child and self.heap[smallest_index] > self.heap[r_child]:
+            smallest_index = r_child
+#         at this point we determined item at which index is the smallest and the index of theat item
+
+        # in case the index of smallest item is not equal to current index (meaning we current item positioned
+        # incorrectly and we have children of current node)
+        if smallest_index != index:
+            # we swap item on the current postion with the smallest one. And call __bubleDOWN again on
+            # the item of our swapped position at smallest_index
+            self.__swap(index, smallest_index)
+            return self.__bubbleDOWN(smallest_index)
+
+    def push(self, value):
+        self.heap.append(value)
+        self.__floatUP(len(self.heap)-1)
+
+
+if __name__ == "__main__":
+    sqc = [2, 7, 1, -2, 56, 5, 3]
+    min_heap = MinHeap(sqc)
+    min_heap.push(10)
+    min_heap.push(11)
+    min_heap.push(-3)
+    print min_heap.heap
+    for i in range(len(sqc)-1):
+        print min_heap.pop()
+    # h = other_max_heap_sort(sqc)
+    # print h.heap_sort()
+    # print sqc, "YO mmama"
