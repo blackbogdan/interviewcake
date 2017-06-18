@@ -181,16 +181,26 @@ class MinHeap:
         self.heap.append(value)
         self.__floatUP(len(self.heap)-1)
 
+    def return_sorted_list(self):
+        result = [self.pop() for i in xrange(len(self.heap)-1)]
+        return result
+
+    def give_min(self):
+        if self.heap[1]:
+            return self.heap[1]
+        else:
+            return False
 
 if __name__ == "__main__":
     sqc = [2, 7, 1, -2, 56, 5, 3]
+    print sqc
     min_heap = MinHeap(sqc)
     min_heap.push(10)
     min_heap.push(11)
     min_heap.push(-3)
     print min_heap.heap
-    for i in range(len(sqc)-1):
-        print min_heap.pop()
+    print min_heap.give_min()
+    print min_heap.return_sorted_list()
     # h = other_max_heap_sort(sqc)
     # print h.heap_sort()
     # print sqc, "YO mmama"
