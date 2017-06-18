@@ -1,0 +1,4 @@
+{
+  "testcases/customers_positive_test.py": true, 
+  "testcases/products_negative_test.py": true
+}
