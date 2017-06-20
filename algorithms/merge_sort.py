@@ -1,4 +1,4 @@
-random_list = [3, 5, 2, 1, 9]
+
 import sys
 
 def merge_sort_interface(lst):
@@ -61,25 +61,44 @@ def msort3(x):
     mid = len(x)//2
     l = msort3(x[:mid])
     r = msort3(x[mid:])
+
     i = 0
     j = 0
+    # while l and r lists are not empty
     while i < len(l) and j < len(r):
         print "left ", l
         print "right", r
         if l[i] < r[j]:
-            print "less, appeindin", l[i]
+            print "Item in left list is less, appending it", l[i]
             result.append(l[i])
             i += 1
         else:
+            print "Item in right list is less, appending it", r[i]
             result.append(r[j])
             j += 1
-        print result
+        print "current result list is:", result
 
+    print l[i:]
+    print r[j:]
+    # Next 2 steps are needed when we have items left in one of the list
+    # for example, left list was [2] and right list was [1,9] before the
+    # while loop.
+    # after while loop finished, we'll have result = [1, 2] and we'll
+    # exit while loop since after appending 2 to the list i will become
+    # 1 and expression while i < len(l) and j < len(r):
+    # shall become 1<len(l) 1<1 ==> False.
+    # But in the right list we'll have last item which is [9], and
+    # we shall add it to the end of the list.
+    # result += l[i:] ==> [1, 2] + l[1:] ==> [1, 2] + []
+    # result += r[j:] ==> [1, 2] + r[1:] ==> [1, 2] + [9] = [1, 2, 9]
     result += l[i:]
     result += r[j:]
+    print "result after result +=", result
+    print "==========>"
     return result
 
 if __name__=="__main__":
+    random_list = [3, 5, 2, 1, 9]
     print random_list
     # print merge_sort_while(random_list)
     print msort3(random_list)
