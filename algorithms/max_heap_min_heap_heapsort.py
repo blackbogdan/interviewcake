@@ -93,29 +93,51 @@ class other_max_heap_sort:
     def swap(self, i, j):
         self.lst[i], self.lst[j] = self.lst[j], self.lst[i]
 
-    def heapify(self, end, index):
-        # these are the indexes of the chilren of current index:
-        l_child = 2 * index
-        r_child = 2 * index + 1
+    def heapify(self, lst_len, index):
+        # these are the indexes of the children of current index.
+        # We need to specify childer like this: "2 * index + 1", because
+        # in heap_sort line "self.heapify(i, 0)" we can use index 0 to
+        # specify l_child index and r_child index
+        l_child = 2 * index + 1
+        r_child = 2 * (index + 1)
         largest = index
-        if l_child < end and self.lst[largest] < self.lst[l_child]:
+        if l_child < lst_len and self.lst[largest] < self.lst[l_child]:
             largest = l_child
-        if r_child < end and self.lst[largest] < self.lst[r_child]:
+        if r_child < lst_len and self.lst[largest] < self.lst[r_child]:
             largest = r_child
         if largest != index:
             self.swap(index, largest)
-            self.heapify(end, largest)
+            self.heapify(lst_len, largest)
 
     def heap_sort(self):
-        end = len(self.lst)
-        start = end//2 - 1
-        for i in xrange(end, -1, -1):
-            # print "calling heapify from heap sort", i
-            self.heapify(end, i)
+        lst_len = len(self.lst)
+        # subtracting 1, because we determine l_child index as
+        # "l_child = 2 * index + 1" and r_child as:
+        # "r_child = 2 * (index + 1)"
+        start = lst_len//2 - 1
+        # We start from the middle of the list and go to the top calling
+        # "heapify" method. If the start is in middle, we point to
+        # last nodes (either it's a l_child, or r_child).
+        for i in xrange(start, -1, -1):
+            print "calling heapify from heap sort", i
 
-        for i in range(end-1, 0, -1):
+            self.heapify(lst_len, i)
+            print self.lst
+        # at this point have max heap built from the list
+
+        # Next step: With each iteration
+        # we're swapping last item at index "i" with first one
+        # in the list at index "0".
+        # Then we call heapify function on swapped item and len of
+        # lst "i". In this case last swapped item won't be touched
+        # by heapify and shall remain there as maximum value.
+        for i in range(lst_len-1, 0, -1):
+            print "calling heapify second time from heap sort", i
+
             self.swap(i, 0)
+            print "after swaps", self.lst
             self.heapify(i, 0)
+            print "after hepify", self.lst
         return self.lst
 
 
@@ -125,7 +147,7 @@ class MinHeap:
         self.heap = [0]
         for i in input_data:
             self.heap.append(i)
-            self.__floatUP(len(self.heap) -1 )
+            self.__floatUP(len(self.heap) - 1)
 
 
     def __floatUP(self, index):
@@ -167,12 +189,12 @@ class MinHeap:
 
         if len(self.heap) > r_child and self.heap[smallest_index] > self.heap[r_child]:
             smallest_index = r_child
-#         at this point we determined item at which index is the smallest and the index of theat item
+#         at this point we determined item at which index is the smallest and the index of that item
 
         # in case the index of smallest item is not equal to current index (meaning we current item positioned
         # incorrectly and we have children of current node)
         if smallest_index != index:
-            # we swap item on the current postion with the smallest one. And call __bubleDOWN again on
+            # we swap item on the current position with the smallest one. And call __bubbleDOWN again on
             # the item of our swapped position at smallest_index
             self.__swap(index, smallest_index)
             return self.__bubbleDOWN(smallest_index)
@@ -192,15 +214,15 @@ class MinHeap:
             return False
 
 if __name__ == "__main__":
-    sqc = [2, 7, 1, -2, 56, 5, 3]
+    sqc = [2, 7, 1, -2, 56, 5, 72]
     print sqc
-    min_heap = MinHeap(sqc)
-    min_heap.push(10)
-    min_heap.push(11)
-    min_heap.push(-3)
-    print min_heap.heap
-    print min_heap.give_min()
-    print min_heap.return_sorted_list()
-    # h = other_max_heap_sort(sqc)
-    # print h.heap_sort()
-    # print sqc, "YO mmama"
+    # min_heap = MinHeap(sqc)
+    # min_heap.push(10)
+    # min_heap.push(11)
+    # min_heap.push(-3)
+    # print min_heap.heap
+    # print min_heap.give_min()
+    # print min_heap.return_sorted_list()
+    h = other_max_heap_sort(sqc)
+    h.heap_sort()
+    print sqc, "YO mmama"
