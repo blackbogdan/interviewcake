@@ -28,7 +28,7 @@ class LinkedList:
         this_node = self.root
         prev_node = None
         # loop through the linked list until this_node == None
-        # that will happen when we reached the end fo the linked list
+        # that will happen when we reached the end of the linked list
         while this_node:
             # if we found the item
             if this_node.data == d:

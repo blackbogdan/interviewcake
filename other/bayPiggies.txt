@@ -1,0 +1,24 @@
+Topic of the meeting:
+                                Usability testing
+Raymond Hettinger
+
+Mutable Minds, .inc
+
+collections module
+    worddicts
+    orderred dict remembers insertion order
+
+TransformDict library
+
+
+
+
+
+dunder method?
+lru cache?
+dunder __missing__
+chainmap?
+pdb?
+@raymondh
+
+pybay meetup (origianl python PYCon) meetup

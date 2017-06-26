@@ -43,14 +43,17 @@ def partition(A, low, hi):
 def quick_selection(x, first, last):
     for i in range(first, last):
         minIndex = i
-        for j in range(i + 1, last + 1):
+        for j in range(i + 1, last):
             if x[j] < x[minIndex]:
                 minIndex = j
         if minIndex != i:
             x[i], x[minIndex] = x[minIndex], x[i]
 
 
-
 if __name__=="__main__":
     random_list = [7, 10, 1, 9, 8, 9, 5, 4, 7, 3, 8, 4, 4, 7, 1, 5, 1, 4, 5, 5]
-    print quick_sort(random_list)
+    print len(random_list)
+    quick_selection(random_list, 0, len(random_list))
+    print len(random_list)
+    print random_list
+    # print quick_sort(random_list)

@@ -19,6 +19,7 @@ class d_linked_list:
     def print_prev_cur_next(self):
         this_node = self.root
         while this_node:
+
             if this_node.prev_node:
                 print "previous node: {}".format(this_node.prev_node.data)
             else:
@@ -58,6 +59,7 @@ class d_linked_list:
                 if prev_n:
                     prev_n.next_node = next_n
                 else:
+                    # this will happen if the
                     self.root = next_n
                 self.size -= 1
                 return True
