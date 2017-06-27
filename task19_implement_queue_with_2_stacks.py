@@ -31,8 +31,16 @@ class queue_with_2_stacks:
 '''
 complexity:
 enqueue - O(1)
-dequeu -  O(m)
+dequeue -  O(m) (counted ustin accounting method. In the accounting method,
+you simply look at the time cost incurred by each item passing through the system instead of the
+time cost of each operation.)
 
+So let's look at the worst case for a single item, which is the case where it is enqueued and
+then later dequeued. In this case, the item enters in_stack (costing 1 push), then later moves
+to out_stack (costing 1 pop and 1 push), then later comes off out_stack to get returned (costing 1 pop).
+
+Each of these 4 pushes and pops is O(1)O(1) time. So our total cost per item is O(1).
+Our m enqueue and dequeue operations put m or fewer items into the system, giving a total runtime of O(m).
 
 '''
 
