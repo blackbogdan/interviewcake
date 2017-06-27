@@ -6,5 +6,6 @@ settings>permalinks>POST http://127.0.0.1/bkstore/sample-post/
 wookommerce rest api docs
 http://woocommerce.github.io/woocommerce-rest-api-docs/#introduction
 
+Url for website: 127.0.0.1/bkstore
 linux commands on windows cmd:
 cygwin
