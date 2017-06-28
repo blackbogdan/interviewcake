@@ -48,9 +48,19 @@ class LinkedList:
         return False #we did not find the item in list
     def print_all(self):
         this_node = self.root
+        print "asdf",this_node.data
         while this_node:
             print this_node.data
             this_node = this_node.next_node
+
+    def make_linked_list_looped(self):
+        this_node = self.root
+        while this_node:
+            if this_node.next_node is None:
+                this_node.next_node = self.root
+                break
+            this_node = this_node.next_node
+
 if __name__ == "__main__":
     My_list = LinkedList()
     My_list.add(4)
@@ -60,4 +70,6 @@ if __name__ == "__main__":
     My_list.add(12)
     My_list.remove(5)
     print "size of the list: ", My_list.size
-    print My_list.print_all()
+    # print My_list.print_all()
+    My_list.make_linked_list_looped()
+    My_list.print_all()
