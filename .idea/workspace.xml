@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bb538ac-4812-4216-b1bc-450cf5bfd37c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/amazon.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/testion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/denis_class.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/google_10_highest_file.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/google_10_highest_numbers_from_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/open_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/p3_count_frequences_of_elements.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/p3_most_frequent_in_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/sort_with_-1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python3code/for_task42/copy_binary_treee_ezualuzu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python3code/p3_singly_linked_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python3code/task42_original_file.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/parselogs/denis_test.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/interviewcake.iml" afterPath="$PROJECT_DIR$/.idea/interviewcake.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/__init__.py" afterPath="$PROJECT_DIR$/algorithms/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/binary_search.py" afterPath="$PROJECT_DIR$/algorithms/binary_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/max_heap_min_heap_heapsort.py" afterPath="$PROJECT_DIR$/algorithms/max_heap_min_heap_heapsort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/merge_sort.py" afterPath="$PROJECT_DIR$/algorithms/merge_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/quick_sort.py" afterPath="$PROJECT_DIR$/algorithms/quick_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/sorting_algorithms.py" afterPath="$PROJECT_DIR$/algorithms/sorting_algorithms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/testb.py" afterPath="$PROJECT_DIR$/algorithms/testb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binary_treee_ezualuzu.py" afterPath="$PROJECT_DIR$/binary_treee_ezualuzu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/__init__.py" afterPath="$PROJECT_DIR$/data_structures/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/doubly_linked_list.py" afterPath="$PROJECT_DIR$/data_structures/doubly_linked_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/single_linked_list.py" afterPath="$PROJECT_DIR$/data_structures/single_linked_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/aporeto.py" afterPath="$PROJECT_DIR$/examples/aporeto.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/sony.py" afterPath="$PROJECT_DIR$/examples/sony.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/__init__.py" afterPath="$PROJECT_DIR$/other/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/bayPiggies.txt" afterPath="$PROJECT_DIR$/other/bayPiggies.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/for_miu.py" afterPath="$PROJECT_DIR$/other/for_miu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/hotspotshield_windows.py" afterPath="$PROJECT_DIR$/other/hotspotshield_windows.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/indecestest.py" afterPath="$PROJECT_DIR$/other/indecestest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/instagram_api.py" afterPath="$PROJECT_DIR$/other/instagram_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/instagram_resp.html" afterPath="$PROJECT_DIR$/other/instagram_resp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/list_of_integers_find_unique.py" afterPath="$PROJECT_DIR$/other/list_of_integers_find_unique.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/login_to_instagram.py" afterPath="$PROJECT_DIR$/other/login_to_instagram.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/python linkedin testing in layers march 23.txt" afterPath="$PROJECT_DIR$/other/python linkedin testing in layers march 23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/salesforce_rest.py" afterPath="$PROJECT_DIR$/other/salesforce_rest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/soap_requests.py" afterPath="$PROJECT_DIR$/other/soap_requests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/supersum_square_root_without_sqrt.py" afterPath="$PROJECT_DIR$/other/supersum_square_root_without_sqrt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/tesla task.py" afterPath="$PROJECT_DIR$/other/tesla task.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/unsorted.txt" afterPath="$PROJECT_DIR$/other/unsorted.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/access.2017.05.04.log" afterPath="$PROJECT_DIR$/parselogs/access.2017.05.04.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/access.2017.05.05.log" afterPath="$PROJECT_DIR$/parselogs/access.2017.05.05.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/access.2017.05.06.log" afterPath="$PROJECT_DIR$/parselogs/access.2017.05.06.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/access_log.txt" afterPath="$PROJECT_DIR$/parselogs/access_log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/parselog.py" afterPath="$PROJECT_DIR$/parselogs/parselog.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/parsing_result.json" afterPath="$PROJECT_DIR$/parselogs/parsing_result.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/time_pandas.csv" afterPath="$PROJECT_DIR$/parselogs/time_pandas.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parselogs/time_pandas.txt" afterPath="$PROJECT_DIR$/parselogs/time_pandas.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/bogdantest.py" afterPath="$PROJECT_DIR$/python3code/bogdantest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/p3binarytree.py" afterPath="$PROJECT_DIR$/python3code/p3binarytree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task10_p3_second_largest_in_bst.py" afterPath="$PROJECT_DIR$/python3code/task10_p3_second_largest_in_bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task16_p3_cake_thief.py" afterPath="$PROJECT_DIR$/python3code/task16_p3_cake_thief.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task1_p3_stocks.py" afterPath="$PROJECT_DIR$/python3code/task1_p3_stocks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task33_p3_dup_in_array.py" afterPath="$PROJECT_DIR$/python3code/task33_p3_dup_in_array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task34_p3_most_frequently_used_word.py" afterPath="$PROJECT_DIR$/python3code/task34_p3_most_frequently_used_word.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task38_p3_7_sided_die_with_5_sided_one.py" afterPath="$PROJECT_DIR$/python3code/task38_p3_7_sided_die_with_5_sided_one.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task39_p3_2egg_problem.py" afterPath="$PROJECT_DIR$/python3code/task39_p3_2egg_problem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task40_p3_find_duplicate_space_edition.py" afterPath="$PROJECT_DIR$/python3code/task40_p3_find_duplicate_space_edition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task41_p3_find_duplicate_beast_mode.py" afterPath="$PROJECT_DIR$/python3code/task41_p3_find_duplicate_beast_mode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python3code/task42_find_duplicate_files.py" afterPath="$PROJECT_DIR$/python3code/task42_find_duplicate_files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/.cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/__init__.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/readme.txt" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/__init__.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/customers_positive_test.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/customers_positive_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/products_negative_test.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/products_negative_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/products_positive.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/testcases/products_positive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/dbconnect.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/dbconnect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/helpers.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/req.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/tools/req.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/with_requests_library/__init__.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/with_requests_library/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api_testing_woocommerce/with_requests_library/requests_keywords.py" afterPath="$PROJECT_DIR$/rest_api_testing_woocommerce/with_requests_library/requests_keywords.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task10_second_largest_in_binary_tree.py" afterPath="$PROJECT_DIR$/task10_second_largest_in_binary_tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task11_million_gazillion_search_engine.py" afterPath="$PROJECT_DIR$/task11_million_gazillion_search_engine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15_fibonacci_numbers.py" afterPath="$PROJECT_DIR$/task15_fibonacci_numbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task19_implement_queue_with_2_stacks.py" afterPath="$PROJECT_DIR$/task19_implement_queue_with_2_stacks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task23_cycle_check_in_single_linked_list.py" afterPath="$PROJECT_DIR$/task23_cycle_check_in_single_linked_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task5_coin_denominations.py" afterPath="$PROJECT_DIR$/task5_coin_denominations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task8_binary_tree_explained.py" afterPath="$PROJECT_DIR$/task8_binary_tree_explained.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task8_solution_superbalanced_binary_tree.py" afterPath="$PROJECT_DIR$/task8_solution_superbalanced_binary_tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task9_valid_binary_tree_verification.py" afterPath="$PROJECT_DIR$/task9_valid_binary_tree_verification.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="interviewcake" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="sort_with_-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/sort_with_-1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#148#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bayPiggies.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/bayPiggies.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unsorted.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/unsorted.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="open_file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/open_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/testb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazon.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/amazon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/testion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="is_prime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/is_prime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="denis_class.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/denis_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>copy</find>
+      <find>bi</find>
+      <find>b</find>
+      <find>fi</find>
+      <find>fibo</find>
+      <find>fibonns</find>
+      <find>fibonna</find>
+      <find>fibonn</find>
+      <find>fibon</find>
+      <find>fibona</find>
+      <find>fibonac</find>
+      <find>fibonacc</find>
+      <find>fibonacci</find>
+      <find>-1</find>
+      <find>is</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/other</dir>
+      <dir>$PROJECT_DIR$/python3code</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/binary_treee_ezualuzu.py" />
+        <option value="$PROJECT_DIR$/task1_stocks.py" />
+        <option value="$PROJECT_DIR$/python3code/task1_p3_stocks.py" />
+        <option value="$PROJECT_DIR$/task8_binary_tree_explained.py" />
+        <option value="$PROJECT_DIR$/python3code/p3binarytree.py" />
+        <option value="$PROJECT_DIR$/python3code/taskx_p3_second_largest_in_bst.py" />
+        <option value="$PROJECT_DIR$/python3code/task10_p3_second_largest_in_bst.py" />
+        <option value="$PROJECT_DIR$/python3code/test.py" />
+        <option value="$PROJECT_DIR$/python3code/bogdantest.py" />
+        <option value="$PROJECT_DIR$/python3code/task16_p3_cake_thief.py" />
+        <option value="$PROJECT_DIR$/python3code/task33_p3_dup_in_array.py" />
+        <option value="$PROJECT_DIR$/python3code/task41_p3_find_duplicate_beast_mode.py" />
+        <option value="$PROJECT_DIR$/python3code/task40_p3_find_duplicate_space_edition.py" />
+        <option value="$PROJECT_DIR$/python3code/task34_p3_most_frequently_used_word.py" />
+        <option value="$PROJECT_DIR$/python3code/task38_p3_7_sided_die_with_5_sided_one.py" />
+        <option value="$PROJECT_DIR$/python3code/task42_original_file.txt" />
+        <option value="$PROJECT_DIR$/python3code/bogdan_test2.py" />
+        <option value="$PROJECT_DIR$/task42_p3.py" />
+        <option value="$PROJECT_DIR$/python3code/for_task42/copy_task42_original_file.txt" />
+        <option value="$PROJECT_DIR$/python3code/task42_find_duplicate_files.py" />
+        <option value="$PROJECT_DIR$/algorithms/merge_sort.py" />
+        <option value="$PROJECT_DIR$/data_structures/p3_single_linked_list.py" />
+        <option value="$PROJECT_DIR$/python3code/task39_p3_2egg_problem.py" />
+        <option value="$PROJECT_DIR$/python3code/p3_singly_linked_list.py" />
+        <option value="$PROJECT_DIR$/other/p3_count_frequences_of_elements.py" />
+        <option value="$PROJECT_DIR$/other/p3_most_frequent_in_array.py" />
+        <option value="$PROJECT_DIR$/other/google_10_highest_file.txt" />
+        <option value="$PROJECT_DIR$/other/google_10_highest_numbers_from_file.py" />
+        <option value="$PROJECT_DIR$/other/denis_class.py" />
+        <option value="$PROJECT_DIR$/other/__init__.py" />
+        <option value="$PROJECT_DIR$/other/sort_with_-1.py" />
+        <option value="$PROJECT_DIR$/other/open_file.py" />
+        <option value="$PROJECT_DIR$/examples/testion.py" />
+        <option value="$PROJECT_DIR$/examples/amazon.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="132" />
+    <option name="y" value="272" />
+    <option name="width" value="1938" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interviewcake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewcake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviewcake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewcake" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviewcake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewcake" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bkapusta\Documents\Personal Files\interviewcake\python3code\for_task42" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.testion">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration name="amazon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/amazon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="denis_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/denis_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="open_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/open_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sort_with_-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/sort_with_-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewcake" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/testion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.sort_with_-1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.denis_class" />
+      <item index="2" class="java.lang.String" itemvalue="Python.open_file" />
+      <item index="3" class="java.lang.String" itemvalue="Python.amazon" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testion" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.testion" />
+        <item index="1" class="java.lang.String" itemvalue="Python.amazon" />
+        <item index="2" class="java.lang.String" itemvalue="Python.open_file" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sort_with_-1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.denis_class" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bb538ac-4812-4216-b1bc-450cf5bfd37c" name="Default" comment="" />
+      <created>1501596405581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501596405581</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_py - 2017.08.05 at 07h 54m 35s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.08.05 at 07h 54m 44s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22246066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25184095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39951575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2517647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40816328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39951575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task42_p3.py" />
+    <entry file="file://$PROJECT_DIR$/task1_stocks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1974">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task42_find_duplicate_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2_product_of_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task41_p3_find_duplicate_beast_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/python linkedin testing in layers march 23.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/p3_single_linked_list.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures/single_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-841">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/p3binarytree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/max_heap_min_heap_heapsort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task40_p3_find_duplicate_space_edition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task39_p3_2egg_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/doubly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/p3_count_frequences_of_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/hotspotshield_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1206">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/dict_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/for_miu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2295">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/sum_of_numbers_in_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/supersum_square_root_without_sqrt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task10_second_largest_in_binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task15_fibonacci_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task23_cycle_check_in_single_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task10_p3_second_largest_in_bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/salesforce_rest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/p3_singly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parselogs/denis_test.py" />
+    <entry file="file://$PROJECT_DIR$/task8_binary_tree_explained.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/polyndrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/p3_most_frequent_in_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/indecestest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/google_10_highest_numbers_from_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="101" lean-forward="false" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parselogs/parselog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3code/task33_p3_dup_in_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/count_words_in_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/degree_between_two_clock_handles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/tesla task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/shuffle_vovels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/google_10_highest_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sorting_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/denis_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/bayPiggies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/unsorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/open_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/sort_with_-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#148#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/testb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/is_prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/testion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/amazon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

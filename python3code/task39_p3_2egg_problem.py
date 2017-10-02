@@ -21,11 +21,11 @@
 # number of floors?
 # What if We decrease number of drops each time? Then, By reaching top floor, we would need to use less drops.
 # However, in the first step we would need to skip more.
-# If n is number of skipped floors, then we have equasion:
+# If n is number of skipped floors, then we have equation:
 #     n + (n-1) + (n-2) + ... +1 = 100
 # This is a TRIANGLE series!
 # A triangular series always starts with 1 and increases by 1 with each number.
-# Sum of fist and last, second first and second last is always contant. For example:
+# Sum of fist and last, second first and second last is always constant. For example:
 # Total sum =15, n = 5, because 1+2+3+4+5==15
 # 1+5=6
 # 2+4=6
